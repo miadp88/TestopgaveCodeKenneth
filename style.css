@@ -702,15 +702,17 @@ footer .black-contact-footer .black-contact-footer-wrapper {
   color: white;
 }
 footer .black-contact-footer .black-contact-footer-wrapper h3 {
-  font-family: "Kreon", serif;
+  font: normal 90% arial, helvetica, sans-serif;
   font-size: 24px;
   color: #ffffff;
   text-transform: capitalize;
+  margin-bottom: 0;
 }
-footer .black-contact-footer .black-contact-footer-wrapper h3 p {
+footer .black-contact-footer .black-contact-footer-wrapper p {
   font-size: 14px;
   color: #999999;
   line-height: 1.5em;
+  margin-top: 2px;
 }
 footer .black-contact-footer .black-contact-footer-wrapper .text_contact {
   margin-top: 6.4vw !important;

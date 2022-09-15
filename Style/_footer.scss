@@ -94,17 +94,22 @@ footer{
         color: white;
 
         h3{
-            font-family: 'Kreon', serif;
+            font: normal 90% arial, helvetica, sans-serif;
             font-size: 24px;
             color: #ffffff;
             text-transform: capitalize;
+            margin-bottom: 0;
+        }
         p{
             font-size: 14px;
             color: #999999;
             line-height: 1.5em;
+            margin-top: 2px;
         }
 
-        }
+        
+
+        
         .text_contact{
             margin-top: 6.4vw !important;
             margin-left: 2vw !important;
