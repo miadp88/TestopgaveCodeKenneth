@@ -13,7 +13,7 @@ footer{
             display: flex;
             flex-direction: row;
             border: 2px solid white;
-            width: 90vw;
+            width: 80vw;
             height: 50vh;
             flex-direction: row;
             margin: auto;
@@ -44,6 +44,7 @@ footer{
 
                 p{
                     color: white;
+                    line-height: 25px;
                 }
             }
         }
@@ -74,7 +75,7 @@ footer{
     }
     
     .ProfileImg{
-        margin-left: 80px;
+        margin-left: 30px;
         margin-top: 50px;
         width: 230px;
 

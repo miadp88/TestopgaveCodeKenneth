@@ -637,7 +637,7 @@ footer .Green-section .div-container {
   display: flex;
   flex-direction: row;
   border: 2px solid white;
-  width: 90vw;
+  width: 80vw;
   height: 50vh;
   flex-direction: row;
   margin: auto;
@@ -666,6 +666,7 @@ footer .Green-section .div-container .Green-section-text h2 {
 }
 footer .Green-section .div-container .Green-section-text p {
   color: white;
+  line-height: 25px;
 }
 footer .hexagon1 span {
   position: absolute;
@@ -685,7 +686,7 @@ footer .bottom1 {
   border-top: 75px solid transparent;
 }
 footer .ProfileImg {
-  margin-left: 80px;
+  margin-left: 30px;
   margin-top: 50px;
   width: 230px;
 }
