@@ -659,10 +659,12 @@ footer .Green-section .div-container .Green-section-text h1 {
   color: white;
   font-size: 28px;
   font-weight: 200;
+  margin-bottom: 0;
 }
 footer .Green-section .div-container .Green-section-text h2 {
-  font-size: 18;
-  color: #57E0C4;
+  font-size: 14px;
+  color: #248E78;
+  margin-top: 3px;
 }
 footer .Green-section .div-container .Green-section-text p {
   color: white;
