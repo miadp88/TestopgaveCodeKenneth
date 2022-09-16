@@ -1,8 +1,16 @@
-
+/* Her fortæller jeg at body'ens ikke skal vise, 
+hvad der tikker ud fra body og hvilken font jeg vil bruge  */
 body{
   font-family: 'open_sansregular';
   overflow-x: hidden;
 }
+
+/*Her sætter jeg margin til auto for at centrer elementerne
+leg laver en min-height for at hindre overlab, 
+positon fixed for at tillade footer at scrole uden at main flytter sig.
+width for at have et helt view width, overflow tillades vertikalt
+men skjules hotisontalt. scroll-behavior smooth for en 
+glidende scroll og height for at hele pentagon-galeriet, hvises uden overlab.   */
 main{
     margin: auto;
     min-height: 200px;
@@ -13,20 +21,43 @@ main{
     scroll-behavior: smooth;
     height: 100%;
 .pentagon-galley{
-  margin-top: 20px;
+  
   #Gallery{
-    position: relative;
-    left: 9%;
-    margin-top: 170px;
+    position: relative; /*for at placerer gallery relativt efter main */
+    left: 9%;  /* for at tilpasse centreringen*/
+    margin-top: 170px; /*for at galeriet ikke bliver scrollet under nav. */
   }
   
   img{
       width:var(--width);
       height:var(--height);
     }
+
+   
 }
 
+.clipped-border{
+  -webkit-clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+   clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+   background:linear-gradient(#4c88b7,lightgrey);
+   width:var(--border-width);
+   height:var(--border-height);
+   max-width:250px;
+   height: var(--height);
+   width:var(--width);
+   transition:transform 0.2s;
+   position:absolute;
+   cursor:pointer;
+   padding: 0px;
+  
+   overflow: hidden;
+   #clipped {
+    max-height: 250px;
 
+    
+    }
+   
+}
 
 
 
@@ -34,23 +65,7 @@ main{
 
     
   
-    .clipped-border{
-      -webkit-clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
-       clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
-       background:linear-gradient(#4c88b7,lightgrey);
-       width:var(--border-width);
-       height:var(--border-height);
-       max-width:250px;
-       height: var(--height);
-       width:var(--width);
-       transition:transform 0.2s;
-       position:absolute;
-       cursor:pointer;
-       padding: 0px;
-      
-       overflow: hidden;
-       
-    }
+    
    
     .clipped-border:before{
       content:'';
@@ -69,11 +84,7 @@ main{
       transform: translate(-100px,400%) rotate(45deg);
       transition:transform 0.5s;
     }
-    #clipped {
-      max-height: 250px;
- 
-      
-      }
+    
       .clipped-border:hover{
           transform:scale(1.2);
           transition:transform 0.2s;

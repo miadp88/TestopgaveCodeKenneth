@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   padding: 0;
   margin: 0;
@@ -74,11 +75,19 @@ li a:hover {
   transition: all 0.3s ease-in-out;
 }
 
+/* Her fortæller jeg at body'ens ikke skal vise, 
+hvad der tikker ud fra body og hvilken font jeg vil bruge  */
 body {
   font-family: "open_sansregular";
   overflow-x: hidden;
 }
 
+/*Her sætter jeg margin til auto for at centrer elementerne
+leg laver en min-height for at hindre overlab, 
+positon fixed for at tillade footer at scrole uden at main flytter sig.
+width for at have et helt view width, overflow tillades vertikalt
+men skjules hotisontalt. scroll-behavior smooth for en 
+glidende scroll og height for at hele pentagon-galeriet, hvises uden overlab.   */
 main {
   margin: auto;
   min-height: 200px;
@@ -98,13 +107,10 @@ main {
   /*500*/
   /*390*/
 }
-main .pentagon-galley {
-  margin-top: 20px;
-}
 main .pentagon-galley #Gallery {
-  position: relative;
-  left: 9%;
-  margin-top: 170px;
+  position: relative; /*for at placerer gallery relativt efter main */
+  left: 9%; /* for at tilpasse centreringen*/
+  margin-top: 170px; /*for at galeriet ikke bliver scrollet under nav. */
 }
 main .pentagon-galley img {
   width: var(--width);
@@ -125,6 +131,9 @@ main .clipped-border {
   padding: 0px;
   overflow: hidden;
 }
+main .clipped-border #clipped {
+  max-height: 250px;
+}
 main .clipped-border:before {
   content: "";
   position: absolute;
@@ -141,9 +150,6 @@ main .clipped-border:before {
 main .clipped-border:hover:before {
   transform: translate(-100px, 400%) rotate(45deg);
   transition: transform 0.5s;
-}
-main #clipped {
-  max-height: 250px;
 }
 main .clipped-border:hover {
   transform: scale(1.2);
