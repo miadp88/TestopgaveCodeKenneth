@@ -112,24 +112,13 @@ main .pentagon-galley #Gallery {
   left: 9%; /* for at tilpasse centreringen*/
   margin-top: 170px; /*for at galeriet ikke bliver scrollet under nav. */
 }
-main .pentagon-galley img {
-  width: var(--width);
-  height: var(--height);
-}
 main .clipped-border {
-  -webkit-clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
-  clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
-  background: linear-gradient(#4c88b7, lightgrey);
-  width: var(--border-width);
-  height: var(--border-height);
-  max-width: 250px;
-  height: var(--height);
-  width: var(--width);
-  transition: transform 0.2s;
-  position: absolute;
-  cursor: pointer;
-  padding: 0px;
-  overflow: hidden;
+  -webkit-clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%); /*dette er bare et webkit*/
+  clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%); /*Her beskriver jeg hvordan div'en skal klippes for at ligne en hexagon*/
+  background: linear-gradient(#4c88b7, lightgrey); /* her beskriver jeg den gradient der ligger henover hexagonerne*/
+  transition: transform 0.2s; /* den transformation der sker ved mouseover*/
+  position: absolute; /*For at styre placeringen af hexagonerne*/
+  cursor: pointer; /*Så der kommer en pointer over hexagonerne ved mouseover*/
 }
 main .clipped-border #clipped {
   max-height: 250px;
