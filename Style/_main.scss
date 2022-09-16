@@ -41,23 +41,13 @@ main{
    transition:transform 0.2s;/* den transformation der sker ved mouseover*/
    position:absolute;/*For at styre placeringen af hexagonerne*/
    cursor:pointer;/*Så der kommer en pointer over hexagonerne ved mouseover*/
-
    #clipped {
     max-height: 250px;
-
-    
     }
    
 }
-
-
-
   
-
-    
-  
-    
-   
+/*glaseffekt af hexagoner ved mouseover*/
     .clipped-border:before{
       content:'';
       position:absolute;
@@ -71,11 +61,13 @@ main{
       transform:rotate(45deg);
       transition:transform 0.5s;
     }
+     /* hoover glaseffekt på hexagoner*/
     .clipped-border:hover:before{
       transform: translate(-100px,400%) rotate(45deg);
       transition:transform 0.5s;
     }
     
+    /*hexagon forstørrelse ved hoover*/
       .clipped-border:hover{
           transform:scale(1.2);
           transition:transform 0.2s;
