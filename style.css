@@ -100,15 +100,13 @@ main {
   /*glaseffekt af hexagoner ved mouseover*/
   /* hoover glaseffekt på hexagoner*/
   /*hexagon forstørrelse ved hoover*/
+  /* placering af enkeltvis hexagon fra venstre*/
   /*zweite Reihe*/
-  /*Reihe 3*/
-  /*RESPONSIVE 1230 width*/
-  /*R2*/
-  /*1024*/
-  /*R2*/
-  /*600*/
-  /*500*/
-  /*390*/
+  /*RESPONSIVE 1230px bredde*/
+  /*1024px bredde*/
+  /*600px bredde */
+  /*500px bredde*/
+  /*390 px bredde*/
 }
 main .pentagon-galley #Gallery {
   position: relative; /*for at placerer gallery relativt efter main */
@@ -618,11 +616,7 @@ main .Green-section {
   background-color: #2EB398;
 }
 
-footer {
-  position: relative;
-  bottom: -800px;
-}
-footer .Green-section {
+.Green-section {
   background-color: #2EB398;
   border-top: transparent;
   border-bottom: transparent;
@@ -631,7 +625,7 @@ footer .Green-section {
   display: flex;
   height: 55vh;
 }
-footer .Green-section .div-container {
+.Green-section .div-container {
   display: flex;
   flex-direction: row;
   border: 2px solid white;
@@ -644,29 +638,34 @@ footer .Green-section .div-container {
   border-left: 1px solid #248E78;
   border-right: 1px solid #248E78;
 }
-footer .Green-section .div-container .Green-section-img {
+.Green-section .div-container .Green-section-img {
   width: 20vw;
   margin-top: 2vw;
 }
-footer .Green-section .div-container .Green-section-text {
+.Green-section .div-container .Green-section-text {
   margin-top: 3vw;
   margin-left: 2vw;
   font: normal 90% arial, helvetica, sans-serif;
 }
-footer .Green-section .div-container .Green-section-text h1 {
+.Green-section .div-container .Green-section-text h1 {
   color: white;
   font-size: 28px;
   font-weight: 200;
   margin-bottom: 0;
 }
-footer .Green-section .div-container .Green-section-text h2 {
+.Green-section .div-container .Green-section-text h2 {
   font-size: 14px;
   color: #248E78;
   margin-top: 3px;
 }
-footer .Green-section .div-container .Green-section-text p {
+.Green-section .div-container .Green-section-text p {
   color: white;
   line-height: 25px;
+}
+
+footer {
+  position: relative;
+  bottom: -800px;
 }
 footer .hexagon1 span {
   position: absolute;

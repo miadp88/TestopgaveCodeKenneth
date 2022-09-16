@@ -74,7 +74,7 @@ main{
           z-index:10;
         }
   
-      
+      /* placering af enkeltvis hexagon fra venstre*/
       .clipped-border:nth-child(1){
   
           left: 128px;
@@ -109,24 +109,24 @@ main{
           top: 200px;
           left: 968px;
       }
-  /*Reihe 3*/
-  .clipped-border:nth-child(10){
-      top: 400px;
-      left: 128px;
-  }
-  .clipped-border:nth-child(11){
-      top: 400px;
-      left: 368px;
-  }
-  .clipped-border:nth-child(12){
-      top: 400px;
-      left: 608px;
-  }
-  .clipped-border:nth-child(13){
-      top: 400px;
-      left: 848px;
-  }
-  /*RESPONSIVE 1230 width*/
+
+      .clipped-border:nth-child(10){
+          top: 400px;
+          left: 128px;
+      }
+      .clipped-border:nth-child(11){
+          top: 400px;
+          left: 368px;
+      }
+      .clipped-border:nth-child(12){
+          top: 400px;
+          left: 608px;
+      }
+      .clipped-border:nth-child(13){
+          top: 400px;
+          left: 848px;
+      }
+  /*RESPONSIVE 1230px bredde*/
   
   @media screen and (max-width: 1230px) {
       .clipped-border {
@@ -155,12 +155,12 @@ main{
           left:685px;
       }
     }
-  /*R2*/
-  @media screen and (max-width: 1230px) {
-      .clipped-border:nth-child(5) {
-        top: 161px;
-        left: 6px;
-      }
+
+    @media screen and (max-width: 1230px) {
+        .clipped-border:nth-child(5) {
+          top: 161px;
+          left: 6px;
+        }
     }
     @media screen and (max-width: 1230px) {
       .clipped-border:nth-child(6) {
@@ -210,7 +210,8 @@ main{
           left: 685px;
       }
     }
-  /*1024*/
+
+  /*1024px bredde*/
   @media screen and (max-width: 1024px) {
       .clipped-border {
           max-height:200px;
@@ -239,7 +240,7 @@ main{
           top: 162px;
       }
     }
-  /*R2*/
+
   @media screen and (max-width: 1024px) {
       .clipped-border:nth-child(5) {
           top: 162px;
@@ -295,7 +296,7 @@ main{
           left: 390px;
       }
     }
-  /*600*/
+  /*600px bredde */
   
   @media screen and (max-width: 600px) {
       .clipped-border {
@@ -383,7 +384,7 @@ main{
           left: 316px;
       }
     }
-  /*500*/
+  /*500px bredde*/
   
   @media screen and (max-width: 500px) {
       .clipped-border {
@@ -471,7 +472,7 @@ main{
           left: 244px;
       }
     }
-  /*390*/
+  /*390 px bredde*/
   @media screen and (max-width: 390px) {
       .clipped-border {
           max-height:100px;
@@ -581,3 +582,53 @@ main{
     } 
        
     }
+
+    .Green-section{
+      background-color: #2EB398;
+      border-top: transparent;
+      border-bottom: transparent;height: 95vh;
+      width: 100vw;
+      display: flex;
+      height: 55vh;
+      .div-container{
+          display: flex;
+          flex-direction: row;
+          border: 2px solid white;
+          width: 80vw;
+          height: 50vh;
+          flex-direction: row;
+          margin: auto;
+          border-top: transparent;
+          border-bottom: transparent;
+          border-left: 1px solid #248E78;
+          border-right: 1px solid #248E78;
+          .Green-section-img{
+              width: 20vw;
+              margin-top: 2vw;
+          }
+
+          .Green-section-text{
+              margin-top: 3vw;
+              margin-left: 2vw;
+              font: normal 90% arial, helvetica, sans-serif;
+
+              h1{
+                  color: white;
+                  font-size: 28px;
+                  font-weight: 200;
+                  margin-bottom: 0;
+
+              }
+              h2{
+                  font-size: 14px;
+                  color: #248E78;
+                  margin-top: 3px;
+              }
+
+              p{
+                  color: white;
+                  line-height: 25px;
+              }
+          }
+      }
+  }

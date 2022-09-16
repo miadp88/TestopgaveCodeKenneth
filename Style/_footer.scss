@@ -2,55 +2,7 @@ footer{
     position: relative;
     bottom: -800px;
     
-    .Green-section{
-        background-color: #2EB398;
-        border-top: transparent;
-        border-bottom: transparent;height: 95vh;
-        width: 100vw;
-        display: flex;
-        height: 55vh;
-        .div-container{
-            display: flex;
-            flex-direction: row;
-            border: 2px solid white;
-            width: 80vw;
-            height: 50vh;
-            flex-direction: row;
-            margin: auto;
-            border-top: transparent;
-            border-bottom: transparent;
-            border-left: 1px solid #248E78;
-            border-right: 1px solid #248E78;
-            .Green-section-img{
-                width: 20vw;
-                margin-top: 2vw;
-            }
-
-            .Green-section-text{
-                margin-top: 3vw;
-                margin-left: 2vw;
-                font: normal 90% arial, helvetica, sans-serif;
-
-                h1{
-                    color: white;
-                    font-size: 28px;
-                    font-weight: 200;
-                    margin-bottom: 0;
-
-                }
-                h2{
-                    font-size: 14px;
-                    color: #248E78;
-                    margin-top: 3px;
-                }
-
-                p{
-                    color: white;
-                    line-height: 25px;
-                }
-            }
-        }
-    }
+    
 
    
 
