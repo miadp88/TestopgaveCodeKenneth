@@ -43,6 +43,7 @@ footer{
         width: 100vw;
         display: block;
         .black-contact-footer-wrapper{
+        display: flex;
         border: none;
         padding-top: 50px;
         color: white;
@@ -74,6 +75,7 @@ footer{
             text-align: justify;
             font-weight: 80;
             width: 20vw;
+            flex-direction: column;
             p span{
                 color: white !important;
                 font-size: 14px;
@@ -120,8 +122,4 @@ footer{
         background-color: #45a049;
       }
 
-      
-      
-
-   
 }

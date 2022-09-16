@@ -133,6 +133,7 @@ main{
           top: 400px;
           left: 848px;
       }
+      
   /*RESPONSIVE 1230px bredde*/
   
   @media screen and (max-width: 1230px) {
@@ -476,17 +477,9 @@ main{
             height: 50px;
         }
     }
-    }
-
-    .Green-section{
-        z-index:1;
-        position: relative;
-        display: flex;
-        flex-direction: row-reverse;
-        height: 200px;
-        background-color: #2EB398;
     
-    } 
+
+
        
     
 
@@ -500,6 +493,11 @@ main{
       width: 100vw;
       display: flex;
       height: 55vh;
+      z-index:1;
+      position: relative;
+      display: flex;
+      flex-direction: row-reverse;
+      top: 700px;
       .div-container{
           display: flex;
           flex-direction: row;
@@ -542,3 +540,4 @@ main{
           }
       }
   }
+}

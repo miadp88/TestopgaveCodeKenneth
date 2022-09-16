@@ -8,6 +8,7 @@ html body {
   margin: 0;
 }
 
+/*Navigation*/
 .nav_design_triangle_down {
   border-left: 150px solid transparent;
   border-right: 150px solid transparent;
@@ -109,6 +110,8 @@ main {
   /*600px bredde */
   /*500px bredde*/
   /*390 px bredde*/
+  /*Den grønne section i main*/
+  /*---------------------------------------------*/
 }
 main .pentagon-galley #Gallery {
   position: relative; /*for at placerer gallery relativt efter main */
@@ -479,19 +482,7 @@ main .grid-container .green {
   background-color: #2EB398;
   height: 50px;
 }
-
-.Green-section {
-  z-index: 1;
-  position: relative;
-  display: flex;
-  flex-direction: row-reverse;
-  height: 200px;
-  background-color: #2EB398;
-}
-
-/*Den grønne section i main*/
-/*---------------------------------------------*/
-.Green-section {
+main .Green-section {
   background-color: #2EB398;
   border-top: transparent;
   border-bottom: transparent;
@@ -499,8 +490,13 @@ main .grid-container .green {
   width: 100vw;
   display: flex;
   height: 55vh;
+  z-index: 1;
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  top: 700px;
 }
-.Green-section .div-container {
+main .Green-section .div-container {
   display: flex;
   flex-direction: row;
   border: 2px solid white;
@@ -513,27 +509,27 @@ main .grid-container .green {
   border-left: 1px solid #248E78;
   border-right: 1px solid #248E78;
 }
-.Green-section .div-container .Green-section-img {
+main .Green-section .div-container .Green-section-img {
   width: 20vw;
   margin-top: 2vw;
 }
-.Green-section .div-container .Green-section-text {
+main .Green-section .div-container .Green-section-text {
   margin-top: 3vw;
   margin-left: 2vw;
   font: normal 90% arial, helvetica, sans-serif;
 }
-.Green-section .div-container .Green-section-text h1 {
+main .Green-section .div-container .Green-section-text h1 {
   color: white;
   font-size: 28px;
   font-weight: 200;
   margin-bottom: 0;
 }
-.Green-section .div-container .Green-section-text h2 {
+main .Green-section .div-container .Green-section-text h2 {
   font-size: 14px;
   color: #248E78;
   margin-top: 3px;
 }
-.Green-section .div-container .Green-section-text p {
+main .Green-section .div-container .Green-section-text p {
   color: white;
   line-height: 25px;
 }
@@ -571,6 +567,7 @@ footer .black-contact-footer {
   display: block;
 }
 footer .black-contact-footer .black-contact-footer-wrapper {
+  display: flex;
   border: none;
   padding-top: 50px;
   color: white;
@@ -598,6 +595,7 @@ footer .black-contact-footer .black-contact-footer-wrapper .text_contact {
   text-align: justify;
   font-weight: 80;
   width: 20vw;
+  flex-direction: column;
 }
 footer .black-contact-footer .black-contact-footer-wrapper .text_contact p span {
   color: white !important;
