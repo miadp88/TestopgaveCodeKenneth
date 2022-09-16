@@ -571,7 +571,8 @@ footer .black-contact-footer .black-contact-footer-wrapper {
   border: none;
   padding-top: 50px;
   color: white;
-  margin: 10vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
 footer .black-contact-footer .black-contact-footer-wrapper h3 {
   font: normal 90% arial, helvetica, sans-serif;
