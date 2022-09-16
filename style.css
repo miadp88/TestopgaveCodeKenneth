@@ -513,6 +513,11 @@ main .Green-section .div-container .Green-section-img {
   width: 20vw;
   margin-top: 2vw;
 }
+main .Green-section .div-container .Green-section-img .ProfileImg {
+  margin-left: 30px;
+  margin-top: 50px;
+  width: 230px;
+}
 main .Green-section .div-container .Green-section-text {
   margin-top: 3vw;
   margin-left: 2vw;
@@ -555,11 +560,6 @@ footer .bottom1 {
   border-bottom: 0px solid transparent;
   border-top: 75px solid transparent;
 }
-footer .ProfileImg {
-  margin-left: 30px;
-  margin-top: 50px;
-  width: 230px;
-}
 footer .black-contact-footer {
   background-color: #353535;
   height: 90vh;
@@ -571,6 +571,7 @@ footer .black-contact-footer .black-contact-footer-wrapper {
   border: none;
   padding-top: 50px;
   color: white;
+  margin: 10vw;
 }
 footer .black-contact-footer .black-contact-footer-wrapper h3 {
   font: normal 90% arial, helvetica, sans-serif;
