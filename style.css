@@ -538,6 +538,54 @@ main .Green-section .div-container .Green-section-text p {
   color: white;
   line-height: 25px;
 }
+main .Green-section .div-container .SOME_Container {
+  position: absolute;
+  right: 170px;
+  bottom: 10px;
+  z-index: 100;
+}
+main .Green-section .div-container .SOME_Container .SOME_flex {
+  display: flex;
+  padding-top: 350px;
+}
+main .Green-section .div-container .SOME_Container .SOME_flex .SOME {
+  width: 50%;
+  vertical-align: middle;
+  flex-direction: row;
+}
+main .Green-section .div-container .SOME_Container .SOME_flex .FacebookIcon a img {
+  background-color: rgba(255, 255, 255, 0.579);
+  width: 15px;
+  padding: 10px;
+  height: 16px;
+}
+main .Green-section .div-container .SOME_Container .SOME_flex .TwitterIcon a img {
+  background-color: rgba(255, 255, 255, 0.236);
+  padding: 10px;
+  width: 16px;
+}
+main .Green-section .div-container .SOME_Container .SOME_flex .GoogleplusIcon a img {
+  background-color: rgba(255, 255, 255, 0.236);
+  padding: 10px;
+  height: 16px;
+}
+main .Green-section .div-container .SOME_Container .SOME_flex .PinterestIkon a img {
+  background-color: rgba(255, 255, 255, 0.579);
+  width: 10px;
+  padding: 10px;
+  height: 16px;
+}
+main .Green-section .div-container .SOME_Container .SOME_flex .LinkedInIcon a img {
+  background-color: rgba(255, 255, 255, 0.579);
+  width: 10px;
+  padding: 10px;
+  height: 16px;
+}
+main .Green-section .div-container .SOME_Container .SOME_flex .DribbbleIkcon a img {
+  background-color: rgba(255, 255, 255, 0.236);
+  padding: 10px;
+  height: 16px;
+}
 
 footer {
   position: relative;
